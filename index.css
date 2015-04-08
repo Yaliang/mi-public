@@ -8,7 +8,9 @@ a {
 
 .navigation {
   margin: 0;
+  width: 100vw;
   height: 40px;
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.58);
   line-height: 40px;
   color: white;
