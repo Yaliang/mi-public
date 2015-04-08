@@ -21,8 +21,15 @@ a {
   margin-bottom: 0;
   margin: auto;
   padding: 0;
-  width: 360px;
+  max-width: 900px;
   height: 40px;
+}
+
+.nav-icon {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: block;
 }
 
 .nav-link {
@@ -35,5 +42,43 @@ a {
   display: block;
   text-align: center;
   color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.about {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F3F3F3;
+}
+
+.introduction {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: auto;
+  max-width: 900px;
+  height: 100vh;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.phone-mock {
+  height: 90vh;
+  min-height: 600px;
+  float: left;
+  margin-top: 10vh;
+}
+
+.intro-description {
+  margin: 0;
+  position: absolute;
+  top: 30vh;
+  left: 50%;
+}
+
+.intro-description-title {
+  margin: 0;
+  font-size: 5vh;
   font-family: "Open Sans Condensed", sans-serif;
 }
