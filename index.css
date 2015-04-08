@@ -1,0 +1,37 @@
+body {
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation {
+  margin: 0;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.58);
+  line-height: 40px;
+  color: white;
+}
+
+.nav-content {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: auto;
+  padding: 0;
+  width: 360px;
+  height: 40px;
+}
+
+.nav-link {
+  width: 90px;
+  float: left;
+  display: block;
+}
+
+.nav-link-a {
+  display: block;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+}
