@@ -191,8 +191,6 @@ a {
   height: 70px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 25vw;
-  padding-right: 25vw;
 }
 
 .footer-nav {
@@ -213,7 +211,6 @@ a {
 
 .copyright {
   margin: 0;
-  margin-right:100px;
 }
 
 .footer-nav-link {
