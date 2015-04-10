@@ -12,6 +12,7 @@
 	<link href="http://fonts.googleapis.com/css?family=PT+Serif|Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css">
 	<link href="index.css" rel="stylesheet" type="text/css">
 	<script src="jquery-1.11.2.min.js"></script>
+  <script src="index.js"></script>
 </head>
 <body>
 	<nav class="navigation">
@@ -33,12 +34,53 @@
     <ul>
 	</nav>
   <article class="about" id="about" >
-    <section class="introduction">
-      <img class="phone-mock" src="./content/1_Frontal_View_White.png"></img>
-      <div class="intro-description">
-        <h1 class="intro-description-title">Share the avtivity.</h1>
+    <section class="introduction introduction-bkg-gray full-screen-active">
+      <div class="block-in-center">
+        <img class="iphone-mock-left" src="./content/1_Frontal_View_White.png"></img>
+        <div class="intro-description-right">
+          <h1 class="intro-description-title">Share the avtivity.</h1>
+          <div class="learn-more-btn">Learn More</div>
+        </div>
       </div>
     </section>
+    <section class="introduction introduction-bkg-light">
+      <div class="block-in-center">
+        <img class="iphone-mock-right" src="./content/1_Frontal_View_White_chat.png"></img>
+        <div class="intro-description-left">
+          <h1 class="intro-description-title">Chat as a group.</h1>
+          <div class="learn-more-btn">Learn More</div>
+        </div>
+      </div>
+    </section>
+    <div class="swipt-counter">
+    </div>
+    <nav class="section-bottom-nav">
+      <ul class="section-bottom-nav-ul">
+        <li class="circle circle-active"></li>
+        <li class="circle"></li>
+      </ul>
+    </nav>
   </article>
+  <footer class="full-page-footer">
+    <nav class="footer-nav">
+      <ul class="footer-nav-ul">
+        <li class="footer-nav-content">
+          <p class="copyright">&copy; 2015 Trouve.re</p>
+        </li>
+        <li class="footer-nav-link left-bounder">
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li class="footer-nav-link left-bounder">
+          <a href="#">Terms of Use</a>
+        </li>
+        <li class="footer-nav-link left-bounder">
+          <a href="#">Contact</a>
+        </li>
+        <li class="footer-nav-link">
+          <a href="#">Career</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>
